@@ -1,4 +1,3 @@
-<script>
 const batchSize = 6;
 let observer;
 let currentIndex = 0;
@@ -73,4 +72,3 @@ if ('IntersectionObserver' in window) {
     observer.observe(items[i]);
   }
 };
-</script>
